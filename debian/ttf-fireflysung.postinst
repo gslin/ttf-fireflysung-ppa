@@ -1,6 +1,0 @@
-#!/bin/bash
-
-if [[ "xinstall" = "x$1" || "xupgrade" = "x$1" ]]; then
-    mkdir -p /usr/share/fonts/truetype
-    ln -s /usr/share/fonts/truetype/fireflysung.ttf ../../fireflysung/fireflysung.ttf
-fi
